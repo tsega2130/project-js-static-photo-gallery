@@ -4,7 +4,7 @@ let imageFileNames = fs.readdirSync('site/images');
 
 // This code is just here to demonstrate how fs.readdirSync works
 
-console.log('sites/images contains the following files:')
+console.log('sites/images contains the following files:');
 
 for (let i = 0; i < imageFileNames.length; i++) {
   let fileName = imageFileNames[i];
