@@ -264,13 +264,6 @@ for (let i = 0; i < 20; i++) {
 
     data += `<div class="gallery-container"> \n \t <div class="gallery-item"> \n \t  <div class="image"> \n \t <img src="`;
   data += `${fileName}" > \n \t  </div> \n \t </div> \n \t </div> \n`;
-  if (fileName === "https://images.unsplash.com/source-404?fit=crop&fm=jpg&h=800&q=60&w=1200") {
-    let randomKeyword = Math.floor((Math.random()*keyword.length))
-  console.log(keyword[randomKeyword])
-    let country=keyword[randomKeyword];
-    let fileName = `http://source.unsplash.com/1600x900/?${country}`;
-  }
-
   }
 
 
